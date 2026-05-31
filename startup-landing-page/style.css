@@ -1,0 +1,161 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Montserrat',sans-serif;
+}
+
+body{
+    background:#000;
+    color:white;
+}
+
+/* Navbar */
+
+nav{
+    position:sticky;
+    top:0;
+    background:#fcbf00;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px 40px;
+    z-index:1000;
+}
+
+.logo{
+    font-size:28px;
+    font-weight:700;
+}
+
+nav ul{
+    display:flex;
+    list-style:none;
+    gap:30px;
+}
+
+nav ul li a{
+    text-decoration:none;
+    color:black;
+    font-weight:500;
+}
+
+/* Intro */
+
+.intro-section{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:80px 60px;
+}
+
+.left-content{
+    width:55%;
+}
+
+.left-content h1{
+    font-size:60px;
+    margin-bottom:20px;
+}
+
+.left-content p{
+    line-height:1.8;
+    margin-bottom:30px;
+}
+
+.left-content button{
+    background:#fcbf00;
+    color:black;
+    border:none;
+    padding:15px 40px;
+    font-size:18px;
+    cursor:pointer;
+}
+
+.right-content img{
+    width:400px;
+}
+
+/* Contact */
+
+#contact{
+    padding:60px;
+}
+
+#contact h2{
+    font-size:40px;
+    margin-bottom:30px;
+}
+
+form{
+    display:flex;
+    flex-direction:column;
+    gap:20px;
+}
+
+input{
+    background:black;
+    border:2px solid #fcbf00;
+    color:white;
+    padding:15px;
+    border-radius:50px;
+    font-size:16px;
+}
+
+/* Remove blue outline */
+
+input:focus{
+    outline:none;
+}
+
+.row{
+    display:flex;
+    gap:20px;
+}
+
+.row input{
+    width:50%;
+}
+
+form button{
+    width:220px;
+    padding:15px;
+    border:none;
+    background:#fcbf00;
+    color:black;
+    font-weight:bold;
+    cursor:pointer;
+    border-radius:30px;
+}
+
+/* Table */
+
+#table{
+    padding:60px;
+}
+
+#table h2{
+    font-size:40px;
+    margin-bottom:30px;
+}
+
+table{
+    width:100%;
+    border-collapse:collapse;
+}
+
+th,td{
+    border:1px solid #fcbf00;
+    padding:15px;
+    text-align:left;
+}
+
+thead{
+    color:#fcbf00;
+}
+
+tfoot{
+    background:#fcbf00;
+    color:black;
+    font-weight:bold;
+}
